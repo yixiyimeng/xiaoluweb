@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/PCreset.css" />
 		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<link rel="stylesheet" type="text/css" href="css/layer/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layer/layer.css" />
 	</head>
 	<body>
 		<!-- header -->
@@ -18,11 +18,13 @@
 					<li><a href="#mode-part">创新阅读模式</a></li>
 					<li><a href="#system-part">语文教学体系</a></li>
 					<li><a href="#about-part">关于我们</a></li>
-					<li class="download"><a href="javascript:;" >客户端下载</a>	<div class="downloadQr">
-					<img src="img/qr.png" >
-				</div></li>
+					<li class="download"><a href="javascript:;">客户端下载</a>
+						<div class="downloadQr">
+							<img src="img/qr.png">
+						</div>
+					</li>
 				</ul>
-			
+
 			</div>
 		</div>
 		<!-- banner -->
@@ -30,15 +32,15 @@
 			<img src="img/banner.png">
 		</div>
 		<!-- 趣学推荐 -->
-		<section class="part">
+		<section class="part scoll-part">
 			<div class="part-hd">
 				<div class="title"><span>趣学推荐</span></div>
 				<div class="subtitle">超趣味学习方式，让孩子爱上学习</div>
 			</div>
 			<div class="part-bd w1200">
 				<div class="device">
-					<a class="arrow-left arrow" href="#"></a>
-					<a class="arrow-right arrow" href="#"></a>
+					<a class="arrow-left arrow" href="javascript:;"></a>
+					<a class="arrow-right arrow" href="javascript:;"></a>
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
@@ -121,7 +123,7 @@
 				<img src="img/ip.png">
 			</div>
 		</section>
-		<section class="part" id="mode-part">
+		<section class="part scoll-part" id="mode-part">
 			<div class="part-hd">
 				<div class="title"><span>边听边看的创新阅读模式</span></div>
 				<div class="subtitle">名校特级教师推荐书单 让孩子学会阅读理解</div>
@@ -131,7 +133,7 @@
 			</div>
 		</section>
 		<!-- 边听边看的创新阅读模式 -->
-		<section class="part bgtu system-part" id="system-part">
+		<section class="part bgtu system-part scoll-part" id="system-part">
 			<div class="part-hd">
 				<div class="title"><span>边听边看的创新阅读模式</span></div>
 				<div class="subtitle">名校特级教师推荐书单 让孩子学会阅读理解</div>
@@ -160,7 +162,7 @@
 			</div>
 		</section>
 		<!-- 关于我们 -->
-		<section class="part about-part" id="about-part">
+		<section class="part about-part scoll-part" id="about-part">
 			<div class="part-hd">
 				<div class="title"><span>关于我们</span></div>
 			</div>
@@ -173,26 +175,47 @@
 		</section>
 		<!-- footer -->
 		<div class="footer">
-			<div class="w1200 clearfix">
-				<div class="fl bottomnav">
-					<ul>
-						<li><a href="">AR教学</a></li>
-						<li><a href="">创新阅读模式</a></li>
-						<li><a href="">语文教学体系</a></li>
-						<li><a href="">关于我们</a></li>
-					</ul>
+			<div>
+				<div class="w1200 clearfix">
+					<div class="fl bottomnav">
+						<ul>
+							<li><a href="#">AR教学</a></li>
+							<li><a href="#mode-part">创新阅读模式</a></li>
+							<li><a href="#system-part">语文教学体系</a></li>
+							<li><a href="#about-part">关于我们</a></li>
+						</ul>
+					</div>
+					<div class="webinfo fl">
+						<p>武汉集思陌教育科技有限公司</p>
+						<p>地址：武汉市洪山区文治街17号306室</p>
+						<p>电话：<span class="ft-red">400-180-6258</span></p>
+						<p>Copyright ©2018-2019 www.xiaolujiejie.com</p>
+					</div>
+					<div class="qrbox fr">
+						<img src="img/qr.png" alt="">
+						<p>扫描上方二维码下载APP</p>
+					</div>
 				</div>
-				<div class="webinfo fl">
-					<p>武汉集思陌教育科技有限公司</p>
-					<p>地址：武汉市洪山区文治街17号306室</p>
-					<p>电话：<span class="ft-red">400-180-6258</span></p>
-					<p>Copyright ©2018-2019 www.xiaolujiejie.com</p>
-				</div>
-				<div class="qrbox fr">
-					<img src="img/qr.png" alt="">
-					<p>扫描上方二维码下载APP</p>
-				</div>
+				<div class="recordcode"><a href="" target="_blank"><i></i>鄂公网安备18024026号-1</a></div>
+
 			</div>
+		</div>
+		<div id="leftsead">
+			<ul>
+
+				<li>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1301682016&site=qq&menu=yes">
+						<img src='img/l03.png' />
+					</a>
+				</li>
+
+				<li>
+					<a class="youhui">
+						<img src="img/l02.png" width="50" height="50" class="shows" />
+						<img class="qr hides" src="img/qr2.jpg" width="196" />
+					</a>
+				</li>
+			</ul>
 		</div>
 	</body>
 </html>
@@ -200,6 +223,60 @@
 <script src="js/idangerous.swiper.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.smooth-scroll.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/layer.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	;(function() {
+	    function hScroll(options) {
+	        var self = this;
+	        self = Object.assign(self, {
+	            nav1: '',
+	            nav2: '',
+	            check: '',
+	        }, options);
+	        self.init();
+	    }
+	    hScroll.prototype = {
+	        init: function() {
+	            var self = this
+	              , arr = []
+	              , kdiv = $(self.nav2);
+	            for (var i = 0; i < kdiv.length; i++) {
+	                arr.push($(kdiv[i]).offset().top-88);
+	            }
+	            self.sctopFun(arr);
+	            $(window).scroll(function(e) {
+	                self.sctopFun(arr);
+	            });
+	            $(self.nav1).click(function(e) {
+					e.preventDefault();
+					var index=$(this).parent('li').index();
+	                $('body,html').animate({
+	                    scrollTop: arr[index] + 'px'
+	                });
+	            });
+	        },
+	        sctopFun: function(arr) {
+	            var self = this;
+	            var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;
+	            var keys = 0
+	              , flag = true;
+	            for (var i = 0; i < arr.length; i++) {
+	                keys++;
+	                if (flag) {
+	                    if (scrollTop >= arr[arr.length - keys] - 300) {
+							$(self.nav1).removeClass(self.checkClass);
+	                        $(self.nav1).eq(arr.length - keys).addClass(self.checkClass);
+	                        flag = false;
+	                    } else {
+	                        flag = true;
+	                    }
+	                }
+	            }
+	        },
+	    }
+	    window.hScroll = hScroll;
+	}());
+</script>
+
 <script>
 	var mySwiper = new Swiper('.swiper-container', {
 		loop: true,
@@ -214,32 +291,44 @@
 	$('.arrow-right').on('click', function(e) {
 		e.preventDefault()
 		mySwiper.swipeNext()
-	})
+	});
 	$(document).on('click', 'a[href*="#"]', function() {
 		var tgt = $(this).attr('href');
 		$('.topnav a.active').removeClass('active');
 		$(this).addClass('active');
-		$.smoothScroll({
-			scrollTarget: tgt,
-			offset: -88,
-			//缓动效果
-			easing: 'linear',
-			//滑动的速度
-			speed: 400,
-		});
+		// $.smoothScroll({
+		// 	scrollTarget: tgt,
+		// 	offset: -88,
+		// 	//缓动效果
+		// 	easing: 'linear',
+		// 	//滑动的速度
+		// 	speed: 400,
+		// });
 	});
-	$('.download').hover(function(){
+	$('.download').hover(function() {
 		$('.downloadQr').stop().fadeToggle()
 	})
-$('.device').on('click','.swiper-slide .showdetails',function(){
-	var title=$(this).attr('data-title');
-	layer.open({
-	  type: 2,
-	  title: title,
-	  shadeClose: true,
-	  shade: 0.8,
-	  area: ['60%', '90%'],
-	  content: 'https://www.xiaolujiejie.com/api/LPCC?id=b6a3057f-66db-41c1-b97f-685489c4bdc1&type=CCommodity&tdsourcetag=s_pcqq_aiomsg' //iframe的url
-	}); 
-})
+	$('.device').on('click', '.swiper-slide .showdetails', function() {
+		var title = $(this).attr('data-title');
+		layer.open({
+			type: 2,
+			title: title,
+			shadeClose: true,
+			shade: 0.8,
+			area: ['375px', '80%'],
+			content: 'https://www.xiaolujiejie.com/api/LPCC?id=b6a3057f-66db-41c1-b97f-685489c4bdc1&type=CCommodity&tdsourcetag=s_pcqq_aiomsg' //iframe的url
+		});
+	});
+	$('.youhui').hover(function() {
+		$(this).find('.qr').stop().fadeToggle()
+	});
+
+	//初始化
+	new hScroll({
+		nav1: 'a[href*="#"]', //导航对应的元素
+		nav2: '.scoll-part', //监听的元素
+		checkClass: 'active' //选中的样式
+	});
+
+	
 </script>

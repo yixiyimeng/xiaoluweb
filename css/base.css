@@ -70,10 +70,22 @@
 	position: absolute;
 	top: 88px;
 	right: 0;
-	padding: 20px;
-	background: #fff;
+	padding: 10px;
+	background: #42E3BE;
 	box-shadow: 0 0 2px rgba(0,0,0,.2);
 	display: none;
+	border-radius: 5px;
+	z-index: 9999;
+}
+.header .downloadQr:after{
+	content: '';
+	display: block;
+	/* background:#42E3BE ; */
+	border: 10px transparent solid;
+	border-bottom-color:#42E3BE ;
+	position: absolute;
+	top: -20px;
+	right: 30px;
 }
 .header+div{
 	margin-top:88px ;
@@ -134,7 +146,7 @@
 	margin-top: -30px;
 	width: 60px;
 	height: 60px;
-	z-index: 999;
+	z-index: 99;
 	background: url(../img/left.png) no-repeat center center #f4f4f4;
 	border-radius: 100%;
 }
@@ -328,7 +340,7 @@
 }
 
 .footer>div {
-	padding: 60px 90px 200px;
+	padding: 60px 90px 20px;
 }
 
 .footer>div .bottomnav {
@@ -360,3 +372,29 @@
 	display: block;
 	margin: 0 auto 20px;
 }
+.footer .recordcode{
+	text-align: center;
+	margin-top: 100px;
+}
+.footer .recordcode a{
+	color: #bababa;
+	font-size: 14px;
+}
+.footer .recordcode a i {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 6px;
+    background: url(../img/icon_beian.png) 0 0 no-repeat;
+	background-size:contain ;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+#leftsead{width:131px;height:143px;position:fixed;top:258px;right:0px;}
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#leftsead li{width:131px;height:53px;}
+#leftsead li img{float:right;border-bottom-left-radius:5px;border-top-left-radius:5px;}
+#leftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:131px;}
+#leftsead li a .shows{display:block;}
+#leftsead li a .hides{margin-right:-166px;cursor:pointer;cursor:hand;}
+#leftsead li a.youhui .hides{display:none;position:absolute;right:226px;bottom:20px;}
